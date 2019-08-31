@@ -1,0 +1,131 @@
+#boxcontact
+{
+display: inline-block;	
+width: 50%;
+}
+
+#redesc
+{
+display:  inline-block;
+width: 30%;
+padding-left: 2em;
+vertical-align: top;
+}
+
+#redesc a
+{
+	display:  block;
+padding: .5em 0 .5em 0;
+text-decoration: none;
+}
+
+#redesc a span
+{
+position: relative;
+top: -10px;
+font-size: 14px;
+}
+
+
+#pstitulo
+{
+color: #000000;
+font-style: oblique;
+font-weight: bold;
+margin: 1em 0 1em 0;
+}
+
+	.wrapper 
+	{
+	margin: 1em 0 1em 0;
+	}
+
+.wrapper .input
+{
+overflow:auto;
+width: 100%;
+color:#8E8E8E;
+font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-style:italic;
+}
+
+
+#ContactForm textarea
+	{
+		
+		overflow:auto;
+		height:200px;
+		width: 100%;
+		color:#8E8E8E;
+		font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-style:italic;
+	
+	}
+
+#ContactForm a
+	{	 
+	padding: .5em 1em .5em 1em;
+	font-style:normal;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	background: #1077A5;
+	text-align:center;
+	border-radius: 10px;
+	display: block;
+	}
+
+#ContactForm a:hover
+	{
+	background:#1481B2;
+	}
+
+#envia:hover, #borra:hover
+	{
+		cursor: pointer;
+	}
+	
+	.error {
+	display: none;
+	margin: 0;
+  width  : 100%;
+  padding: 0.3em;
+  font-size: 80%;
+  color: white;
+  background-color: #D10808;
+  border-radius: 5px;
+ margin-bottom: .3em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#wraperenv
+	{	 
+	padding: 0 1em .4em 1em;
+	font-style:normal;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	background: #334448;
+	text-align:center;
+	border-radius: 10px;
+	display: block;
+	}
+
+
+@media all and (min-width: 320px) and (max-width: 949px) 
+{
+
+#boxcontact
+{
+width: 98%;
+}
+
+#redesc
+{
+width: 98%;
+padding-left: 0;
+
+}
+	
+}

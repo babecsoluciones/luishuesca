@@ -1,0 +1,69 @@
+
+.libros
+{
+	height: 140px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+.dvlibro
+{
+width: 20%;
+text-align: center;
+display: inline-block;
+vertical-align: top;
+margin: 1%;
+}
+
+.dvlibro p
+{
+margin-top: .5em;
+}
+
+.dvlibro h4
+{
+margin-top: .5em;
+text-align: left;
+}
+
+.txtlibro
+{
+height: 150px;
+margin-top: .5em;	
+padding: .6em;
+text-align: justify;
+text-justify: inter-word;
+border-top-style: dashed;
+border-top-width: thin;
+border-color: #334448; 
+background-color: #FFFFFF;
+color: #000000;
+border-radius: 0 0 10px 10px;
+font-size: 13px;
+overflow: auto;
+}
+
+
+
+
+@media all and (min-width: 320px) and (max-width: 767px) 
+{
+
+.dvlibro
+{
+width: 99%;
+}	
+
+}
+
+@media all and (min-width: 768px) and (max-width: 949px) 
+{
+
+
+.dvlibro
+{
+width: 40%;
+}
+	
+}

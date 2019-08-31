@@ -1,0 +1,67 @@
+
+
+.acerca
+{
+display: inline-block;	
+width: 21%;
+padding: .7em;
+color: #000000;
+vertical-align: top;
+}
+
+.acerca h2
+{
+border-bottom-style: dashed;
+border-bottom-width: thin;
+border-color: #334448;
+padding-bottom: .4em; 
+}
+
+.acerca p
+{
+margin-top: .4em; 
+}
+
+
+.imgconoce
+{
+	width: 90%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 13px #888888;
+	margin-bottom: 1em;
+}
+
+#entrevista
+{
+background-color: #334448;
+color: #FFFFFF;
+border-radius: 5px 5px 0 0;
+padding: .5em;
+}
+
+.pdfs
+{
+display: block;
+margin: 1.3em 0 1.3em 0;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 949px) 
+{
+
+
+
+.acerca
+{	
+width: 95%;
+margin: 0;
+}
+
+#entrevista
+{
+border-radius:0;
+width: 95%;
+}
+
+	
+}

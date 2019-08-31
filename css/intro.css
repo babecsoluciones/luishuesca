@@ -1,0 +1,206 @@
+#sldimg
+{
+	display:  inline-block;
+	text-align: center;
+	width: 65%;
+
+	/*background:url(../images/fotos/foto1.jpg) no-repeat top center;
+	background-size:  contain;*/
+}
+
+.imgsld
+{
+	vertical-align: bottom;
+	height: 350px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: medium;
+	border-color: #1077A5; 
+	
+}
+
+#tumbs
+{
+display: block;
+margin: 1em 0 1em 0;
+}
+
+.tmbs
+{
+	
+width: 60px; 
+height: 50px;
+border-radius: 5px;
+border-style: solid;
+	border-width: thin;
+	border-color: transparent; 
+	opacity: .4;
+}
+
+#tmb0
+{
+margin: 0 0 0 0;
+}
+
+#tmb1, #tmb2, #tmb3, #tmb4, #tmb5, #tmb6
+{
+margin: 0 0 0 -1.2em;
+}
+
+.tmbs:hover
+{
+ cursor: pointer;
+	opacity: 1;
+}
+
+.apunte
+{
+position: relative;
+top: -55px;
+left: -40px;
+color: #1077A5;
+}
+
+#apnt1, #apnt2, #apnt3, #apnt4, #apnt5, #apnt6
+{
+visibility: hidden;
+}
+
+#tmb0
+{
+border-style: solid;
+	border-width: thin;
+	border-color: #1077A5; 
+	opacity: 1;
+}
+
+#twt
+{
+	display: inline-block;
+	width: 30%;
+	color: #000000;
+	text-align: right;
+		vertical-align: top;
+}
+
+
+
+#redsoc
+{
+display: block;
+margin-top: 2em;
+color: #000000;
+text-align: center;
+}
+
+#redsoc a
+{
+margin-right: 1.3em;
+text-decoration: none;
+}
+
+#redsoc a span
+{
+position: relative;
+top: -10px;
+}
+
+.separador
+{
+position: absolute;
+top: -70px;
+}
+
+@media all and (min-width: 768px) and (max-width: 949px) 
+{
+
+#sldimg
+{
+width: 100%;
+}
+
+.imgsld
+{
+	vertical-align: bottom;
+	width: 98%;
+	height: auto;
+}
+
+
+
+#twt
+{
+	width: 98%;
+	text-align:  center;
+}
+
+#redsoc
+{
+margin: 1em 0 .5em 0;
+text-align: left;
+}
+
+#redsoc a
+{
+	display: block;
+margin: .5em 0 .5em 0;
+}
+
+.separador
+{
+display: none;
+}
+	
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) 
+{
+#sldimg
+{
+width: 100%;
+}
+
+.imgsld
+{
+	vertical-align: bottom;
+	width: 98%;
+	height: auto;
+}
+
+.tmbs
+{
+width: 37px; 
+height: 30px;
+}
+
+.apunte
+{
+top: -35px;
+left: -31px;
+}
+
+
+#twt
+{
+	width: 98%;
+	text-align:  center;
+}
+
+#redsoc
+{
+margin: 1em 0 .5em 0;
+text-align: left;
+}
+
+#redsoc a
+{
+	display: block;
+margin: .5em 0 .5em 0;
+}
+
+.separador
+{
+display: none;
+}
+
+}

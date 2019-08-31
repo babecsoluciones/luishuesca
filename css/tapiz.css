@@ -1,0 +1,252 @@
+body{
+    background-color: #FAFAFA;
+    color: #FFF;
+}
+/* Cabecera */
+.cabecera
+{
+width: 100%;
+background-color: #1077A5;	
+}
+
+.menup
+{
+	margin: auto;
+	width: 76%;	
+	overflow: hidden;
+}
+
+.menus
+{
+float: right;
+display: inline-block;
+margin: 0;
+padding: 0;
+}
+
+#logos
+{
+	display: inline-block;
+	vertical-align: bottom; 
+}
+
+
+.ulmenu
+{
+list-style-type:none;
+margin:0;
+padding:0;
+display: inline-block;
+}
+
+.ulmenu > li
+{
+display: inline-block;
+font-family: Helvetica,Helvetica Neue,Arial,sans-serif;
+font-size: 16px;
+font-weight:  bold;
+line-height: 1.42857;
+border-bottom-style: solid;
+border-width: 0 0 5px 0;
+border-color: #1077A5;
+margin:0 0 0 0;
+padding: 20px;
+}
+
+.ulmenu li:hover
+{
+cursor:pointer;
+background-color: #1481B2;
+border-color: #FAFAFA;
+}
+
+.ulmenu .activo
+{
+background-color: #1481B2;
+border-color: #FAFAFA;
+}
+/*
+#dvhome, #dvconece, #dvlibro, #dvcontacto
+{
+ background-image: url('../images/sprite.png');
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+
+#dvhome {
+	width: 32px;
+    height: 32px;
+   background-position: 0px 0px;
+}
+
+#dvconece {
+	width: 32px;
+    height: 32px;
+   background-position: 0px -32px;
+}
+
+#dvlibro {
+	width: 32px;
+    height: 32px;
+   background-position: 0px -64px;
+}
+
+
+#dvcontacto {
+	width: 32px;
+    height: 32px;
+   background-position: 0px -96px;
+}
+*/
+
+#titulos
+{
+display:  none;
+background-color: #FFFFFF;	
+}
+
+
+/* Contenido */
+
+.titulop
+{
+	font-size: 24px;
+font-family: "avalonbold","Nanum Gothic",sans-serif;
+font-weight: bold;
+color: #334448;
+text-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+margin: .5em 0 .5em 0;
+
+}
+
+.contenido
+{
+width: 100%;
+margin-top: 1.5em;
+}
+
+.principal
+{
+	margin: auto;
+	width: 80%;
+	padding: 1em 0 1em 0;
+	/*background-color: #000;*/
+		
+}
+
+#firma
+{
+position: absolute;
+right: 3px;
+top: 0;
+margin: .1em 0 .1em 0;
+}
+
+.foot
+{
+	position: relative;
+	bottom: 0; 
+	background-color: #334448;
+	width: 98%;
+	padding: 1em 1% 1em 1%;
+	font-size: 15px;
+	overflow: hidden;	
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) 
+{
+
+.menup
+{
+	margin: auto;
+	width: 100%;	
+}
+
+.menus
+{
+width: auto;
+}
+
+.ulmenu > li
+{	
+font-size: 13px;
+padding: 22px .46em 21px .46em;
+}
+
+.principal
+{
+	margin: auto;
+	width: 95%;
+	padding: 2%;	
+}
+
+.titulop
+{
+font-size: 20px;
+}
+
+.foot
+{
+	font-size: 13px;	
+}
+	
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) 
+{
+
+.menup
+{
+	margin: auto;
+	width: 100%;	
+}
+
+.menus
+{
+width: 100%;
+}
+
+.ulmenu > li
+{	
+font-size: 13px;
+padding: 22px .46em 21px .46em;
+}
+
+.principal
+{
+	margin: auto;
+	width: 95%;
+	padding: 2%;	
+}
+
+.titulop
+{
+font-size: 20px;
+}
+
+#firma
+{
+right: -3px;
+}
+
+.foot
+{
+	font-size: 13px;	
+}
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 949px) 
+{
+
+
+.ulmenu > li
+{	
+font-size: 14px;
+padding: 23px .46em 21px .46em;
+}
+
+	
+}
